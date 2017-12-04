@@ -131,7 +131,7 @@ test('should add expense to database and store', (done) => {
         });
 });
 
-test('should add expenses with defaults to database and store', (done) => {
+test('should add expenses with defaults to database and store', ( done ) => {
     const store = createMockStore({});
     const expenseDefault = {
         description: '',
